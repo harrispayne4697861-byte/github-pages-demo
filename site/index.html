@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f7fb" />
+    <title>GitHub Pages 部署成功</title>
+    <style>
+      :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #172033; background: #f5f7fb; }
+      body { min-height: 100vh; margin: 0; display: grid; place-items: center; }
+      main { width: min(680px, calc(100% - 40px)); box-sizing: border-box; padding: 40px; border: 1px solid #e1e7f0; border-radius: 20px; background: white; box-shadow: 0 20px 60px #263b5b12; }
+      .status { display: inline-flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 999px; color: #146c43; background: #e8f7ef; font-size: 14px; font-weight: 650; }
+      .dot { width: 8px; height: 8px; border-radius: 50%; background: #22a06b; }
+      h1 { margin: 22px 0 12px; font-size: clamp(30px, 7vw, 46px); letter-spacing: -0.04em; }
+      p { color: #526078; line-height: 1.75; }
+      code { padding: 3px 7px; border-radius: 6px; background: #f1f4f9; color: #36445d; }
+      .steps { display: grid; gap: 10px; margin-top: 28px; padding: 0; list-style: none; }
+      .steps li { padding: 13px 15px; border-radius: 10px; background: #f7f9fc; color: #36445d; }
+      footer { margin-top: 28px; color: #7b879a; font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="status"><span class="dot"></span>发布成功</span>
+      <h1>GitHub 自动部署已跑通</h1>
+      <p>这个示例由 GitHub Actions 发布到 GitHub Pages。之后每次把新提交推送到 <code>main</code> 分支，网页都会自动更新。</p>
+      <ul class="steps">
+        <li>① 代码保存在 GitHub 仓库</li>
+        <li>② Actions 自动打包 <code>site</code> 文件夹</li>
+        <li>③ GitHub Pages 发布网站</li>
+      </ul>
+      <footer>这是部署链路验证页，不包含密钥或个人资料。</footer>
+    </main>
+  </body>
+</html>
